@@ -12,7 +12,7 @@ PODS:
     - Nimble
     - Quick
   - Quick (0.10.0)
-  - ZAlertView (0.3.1)
+  - ZAlertView (1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -21,17 +21,24 @@ DEPENDENCIES:
   - Quick
   - ZAlertView (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+
 EXTERNAL SOURCES:
   ZAlertView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: 4ba722c35b73a680cbd856e4bc22076dfb8085d4
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
-  ZAlertView: 5a7663356f678a37a41090f50568a10a082c09e4
+  ZAlertView: ef3a175a567c45a479a182353354a314d7cee2d0
 
 PODFILE CHECKSUM: 7cbe666dedec4e7133f5e87fec10cffd3964576c
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.0
